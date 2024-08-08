@@ -1,0 +1,66 @@
+.grid {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+.gird.wide {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.c-o-9-2 {
+    margin-left: 37.5%;
+}
+
+/* Tablet */
+
+@media (min-width: 744px) and (max-width: 1024px) {
+    .l-o-3 {
+        margin-left: 25%;
+    }
+
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .cart__author {
+        width: 25%;
+    }
+}
+
+/* Mobile */
+
+@media (min-width: 360px) and (max-width: 743px) {
+    .m-o-1 {
+        margin-left: 8.33333%;
+    }
+
+    .m-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+
+    .cart__title {
+        width: 100%;
+    }
+
+    .cart__author {
+        width: 40%;
+    }
+}
